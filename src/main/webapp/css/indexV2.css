@@ -1,0 +1,291 @@
+		.cajas{
+			padding:50px;
+			background-color: white;		
+			display: flex;
+	  		justify-content: center;
+		}
+		
+		.servicio-img{
+			background-color: #E4E4E4;		
+			display: flex;
+			flex-direction: column;
+			align-items: center;		
+			margin:10px;
+			width: 15%;
+			padding-bottom:20px;
+		}
+		
+		.servicio-img img{
+			width: 100%;
+			height:180px;
+		
+		}
+		
+		h4{
+			padding: 10px;
+			text-align: center;
+		}
+		
+		
+		.btn-servicio{
+			border: 0px;		
+			margin: auto;		
+			color: white;
+			text-align: center;		
+			padding: 10px;
+			background: linear-gradient(to right, #4472C4, #BD13A9);
+			width: 100%;
+		}
+		
+		.btn-servicio:hover{
+			transition:1s;
+			border: 1px solid #BD13A9;	
+			/*background: linear-gradient(to right, #4472C4, #BD13A9);*/
+	  		-webkit-background-clip: text;
+	  		background-clip: text;
+	  		color: transparent;
+    	}
+    	
+    	.btn-servicio:not(:hover){
+	    	transition:1s;
+			margin: auto;		
+			color: white;
+			text-align: center;		
+			padding: 10px;
+			background: linear-gradient(to right, #4472C4, #BD13A9);
+			width: 100%;
+			border: 1px solid transparent ;		
+			border-image: linear-gradient(to right, #4472C4, #BD13A9);
+	  		border-image-slice: 1;
+    	}
+    	
+    	.servicio-img a{
+    		width:40%;
+    	}
+		
+		label{
+			color:white;
+			font-size:25px;
+		}
+		
+		input{
+			width:300px;
+		}
+		
+		form{
+			margin:5px;
+		}
+		#contenedor-form{
+			width:25%;
+		}
+		#enviar{
+			border: 0px;
+			margin: auto;
+			color: white;
+			text-align: center;
+			padding: 10px;
+			background: linear-gradient(to right, #4472C4, #BD13A9);
+			width: 40%;
+		}
+		#cerrar{
+					background-color: black;		
+		
+			padding: 10px;
+			margin: auto;
+			text-align: center;
+			width: 40%;
+			border: 1px solid #BD13A9;	
+			color: #BD13A9;
+			
+			/*
+			background: linear-gradient(to right, #4472C4, #BD13A9);
+	  		-webkit-background-clip: text;
+	  		background-clip: text;
+	  		color: transparent;
+	  		*/
+		}
+		
+
+		#nosotros{
+  			display: flex;
+			width: 63.5%;
+		}
+		#nosotros img{
+			width:50%;
+			height:250px;
+		}
+		#info p{
+			width:100%;
+			font-size:20px;
+			padding-left:45px;
+		}
+		#info {
+			flex-direction: column;
+			align-items: center;
+			display: flex;
+			width:50%;
+		}
+		#boton2{
+		 	float: right;
+			border: 0px;
+			color: white;
+			background: linear-gradient(to right, #4472C4, #BD13A9);
+			width: 20%;
+		}
+		#boton1{
+			width:100%;
+		}
+		
+		.nav-item{
+			padding: 5px;
+			border: 0px;
+			width: 15%;
+		
+		}
+	
+
+			
+		#logo{
+		text-align: center;
+		width: 20%;
+		padding: 10px;
+		background-color: #fff;		
+		border: 0px;
+		}
+		#nav{
+		border: 0px;
+		align-items: center;
+		background-color: #fff;		
+		margin-bottom: 10px;
+	}
+	.footer2{
+		border-top:1px solid black;
+		border-bottom:1px solid black;
+		width: 100%;
+		background-color: white;
+		margin:0px;	
+		text-align:center;
+		padding-bottom:0px;	
+		}
+		
+		
+			h6{padding-left:45px;width:100%;font-size: 40px;text-decoration: underline;}
+		
+		.nav-link{font-size: 18px; color: black;}
+		h3{color:white;font-size: 80px;text-align: center;}
+	
+		
+		.modal-header{
+				color:#fff;
+				background: #428bca;
+				display: flex;
+		  		justify-content: center;
+		}
+		.help-block {
+			  	color: red;
+		}
+		.form-group.has-error .form-control-label {
+			    color: red;
+		}
+		.form-group.has-error .form-control {
+			    border: 1px solid red;
+			    box-shadow: 0 0 0 0.2rem rgba(250, 16, 0, 0.18);
+		}
+		.form-group.has-error .form-select {
+			    border: 1px solid red;
+			    box-shadow: 0 0 0 0.2rem rgba(250, 16, 0, 0.18);
+		}
+		
+		
+				
+
+				
+		
+		
+		#frmCleanmaster{
+			opacity:1;
+		}
+		
+		.modal-content{
+			background-color: rgba(0, 0, 0, 0.5);	
+		
+		}
+		
+		.modal-header{
+				    background: linear-gradient(to right, #4472C4, #BD13A9);
+			
+		}
+		
+		#banner{
+		align-items: center;		
+		display: flex;
+		flex-direction: column;
+		
+		
+		
+		}
+		
+		#bannerh1{
+			text-align: center;
+			text-shadow: 8px 8px 16px rgba(0, 0, 0, 4);		
+			font-size:90px;
+			color:white;
+		}
+		
+		#btn-reservar{
+				border:1px solid white;
+		
+			border-radius:0px;
+			margin: auto;
+			color: white;
+			text-align: center;
+			padding: 10px;
+			background: linear-gradient(to right, #4472C4, #BD13A9);
+			width: 10%;
+		}
+
+		
+		#buscar{
+				border-radius:10px;
+		
+		border:0px;
+		
+		color:white;
+		width:100px;
+			background: linear-gradient(to right, #4472C4, #BD13A9);
+		
+		}
+		
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

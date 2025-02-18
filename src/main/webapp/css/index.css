@@ -1,0 +1,149 @@
+	#contenedor1{
+		width: 100%;
+	}
+	
+	#serv{
+		background-color: black;
+
+	}
+
+	#contenedor-form{
+	background-color: rgba(0, 0, 0, 0.5);	
+	padding: 10px;
+	margin: auto;
+	
+	border: 1px solid black;
+	width: 35%;
+	}
+
+	
+	body{
+		width: 100%;
+    	background-image: url('../img/bck.jpg');
+    	    background-attachment: fixed;
+	}
+	
+	.nav-item{
+		text-align: center;
+		width: 20%;
+		padding: 35px;
+		border: 1px solid black;
+		background-color: #fff;		
+	}
+	
+	#logo{
+	text-align: center;
+	width: 40%;
+	padding: 10px;
+	border: 1px solid black;
+	background-color: #fff;		
+	}
+	
+	
+	
+	
+	#nav{
+		margin-bottom: 10px;
+		
+	    border: 1px solid black;
+	}
+	
+	h2{	
+		margin: 0px;
+	
+		color: white;
+	    background: linear-gradient(to right, #4472C4, #BD13A9);
+		padding: 10px;
+	
+		text-align: center;
+	
+	}
+
+	#logo-img{
+		width: 100%;
+		float: left;
+		
+	}
+	
+	
+	.cajas{
+		border-top:1px solid black;
+		border-bottom:1px solid black;
+		
+		width: 100%;
+		background-color: white;		
+		
+		
+		
+	}
+	
+	#servicio-img{
+		width: 20px;
+		border: 5px solid red;
+	}
+	
+	footer{
+		background-color: black;
+		
+			width: 100%;
+			
+		
+	}
+	
+	.caja2{
+			background-color: rgba(0, 0, 0, 0.0);	
+			padding: 40px;
+		
+	}
+	
+	h3{
+			color:white;
+			font-size: 80px;
+	}
+	
+	h4{
+	
+		text-align: center;
+		
+	
+	}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
